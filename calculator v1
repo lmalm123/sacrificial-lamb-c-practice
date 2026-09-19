@@ -1,0 +1,50 @@
+#include <iostream>
+
+using namespace std; 
+
+void hello() {
+cout << "hello, this is a simple calculator that only does + - * / " << endl; 
+}
+
+
+void calcu() { 
+
+string ops; 
+
+cout << "which operations do you wanna use? + - * /" << endl;
+cin >> ops; 
+int a;
+cout << "what is number a" << endl;
+cin >> a;
+
+int b;
+cout << "what is number b" << endl;
+cin >> b;
+
+if (ops == "+") {
+cout << a << ops << b << "=" << a+b << endl;
+}
+
+if (ops == "-") {
+cout << a << ops << b << "=" << a-b << endl;
+}
+
+if (ops == "*") {
+cout << a << ops << b << "=" << a-b << endl;
+}
+
+if (ops == "/") {
+cout << a << ops << b << "=" << a-b << endl;
+}
+
+};
+
+
+int main(){
+     hello();
+while(true) {
+     calcu();
+    }
+  
+     return 0;
+}
