@@ -1,2 +1,2 @@
-# sacrificial-lamb-c-practice
+# sacrificial-lamb-c++-practice
 c++ practices
